@@ -1,18 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../assets/tailwind.css";
 
 const Popup = () => {
-	const [time, setTime] = useState(new Date().toLocaleTimeString());
-	useEffect(() => {
-		setInterval(() => {
-			setTime(new Date().toLocaleTimeString());
-		}, 1000);
-	}, [time]);
-
-	return (
-		<div className='h-screen flex flex-col justify-center items-center text-center bg-slate-200 text-5xl'>
-			{time}
-		</div>
-	);
+  return <div className="w-300px bg-white p-2">Popup Content</div>;
 };
 export default Popup;
