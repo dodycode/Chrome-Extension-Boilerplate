@@ -1,6 +1,6 @@
 # Chrome Extension React Boilerplate
 
-This boilerplate is a bare minimum for developing chrome extensions with React and Webpack.
+This boilerplate is a bare minimum for developing chrome extensions with React , TypeScript, Tailwind and Webpack
 
 ## Getting Started
 
