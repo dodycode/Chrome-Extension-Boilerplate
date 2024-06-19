@@ -16,19 +16,25 @@ https://github.com/dodycode/Chrome-Extension-Boilerplate
 npm install
 ```
 
-3. Excute NPM command for development
+3. Set up your environment variables
+
+```
+cp .env.example .env
+```
+
+4. Excute NPM command for development
 
 ```
 npm run dev
 ```
 
-4. Open and browse chrome extensions management
+5. Open and browse chrome extensions management
 
 ```
 chrome://extensions/
 ```
 
-5. Turn on developer mode and load the unpacked extension from dist folder
+6. Turn on developer mode and load the unpacked extension from dist folder
 
 ```
 ./dist
